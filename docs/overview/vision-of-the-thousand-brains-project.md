@@ -24,7 +24,7 @@ We call the implementation described herein "Monty", in reference to Vernon Moun
 
 # Embodied, Sensorimotor Learning
 
-<img alt="Conceptual illustration of sensorimotor learning." src="../figures/overview/embodied_senorimotor_illustration.png" style="width: 50%; float: right; margin-left: 20px; margin-bottom: 20px">
+<img alt="Conceptual illustration of sensorimotor learning." src="../figures/overview/embodied_sensorimotor_illustration.png" style="width: 50%; float: right; margin-left: 20px; margin-bottom: 20px">
 
 One key differentiator between the TBP and other AI technologies is that the TBP is built with embodied, sensorimotor learning at its core. Sensorimotor systems learn by sensing different parts of the world over time while interacting with it. For example, as you move your body, your limbs, and your eyes, the input to your brain changes. In Monty, the learning derived from continuous interaction with an environment represents the foundational knowledge that supports all other functions. This contrasts with the growing approach that sensorimotor interactions are a sub-problem that can be solved by beginning with an architecture trained on a mixture of internet-scale language and multi-media data. In addition to sensorimotor interaction being the core basis for learning, the centrality of sensorimotor learning manifests in the design choice that all levels of processing are sensorimotor. As will become clear, sensory and motor processing are not broken up and handled by distinct architectures, but play a crucial role at every point in Monty where information is processed.
 
